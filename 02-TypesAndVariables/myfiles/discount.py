@@ -1,0 +1,6 @@
+price = float(input("Enter the price: "))
+discount=float(input("Enter the discount percentage: "))
+discount_amount = price * (discount / 100)
+final_price = round(price - discount_amount,2)
+reduction=round(discount_amount, 2)
+print(f'Price before discount: {price}. Discount:{discount}%. Price with discount: {final_price}. Reduction: {reduction}')
