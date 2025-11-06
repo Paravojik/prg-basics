@@ -3,6 +3,10 @@ def m_to_cm(n):
 
 def cm_to_m(n):
     return n/100
+def cm_to_in(n):
+    return n/2.54
+def ft_to_cm(feet,inches):
+    return ((feet*12+inches)*2.54)
 
 if __name__ == "__main__":
     # only execute when you run this module
