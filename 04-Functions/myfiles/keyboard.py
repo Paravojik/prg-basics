@@ -11,5 +11,9 @@ def input_real(message):
     return ans
 
 def input_boolean(message):
-    ans = bool(input(message))
+    ans = input(message)
+    if ans.lower()=='y':
+        ans=True
+    elif ans.lower()=='n':
+        ans=False
     return ans
