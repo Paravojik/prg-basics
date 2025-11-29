@@ -1,0 +1,12 @@
+[
+  {
+    "name": "asd",
+    "price": 23.0,
+    "paid": false
+  },
+  {
+    "name": "gkhl",
+    "price": 23.0,
+    "paid": true
+  }
+]
